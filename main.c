@@ -53,7 +53,7 @@ Antes de finalizar el programa, cierra el archivo.
 	srand(time(NULL));
 	fp = fopen("log.txt", "w+");
 	if (fp == NULL) {
-		printf("El archivo no ha sido creado correctamente, errno = %d\n", errno);
+		printf("El archivo no ha sido creado correctamente\n");
 		mySleep(1000);
 		return 1;
 	}
